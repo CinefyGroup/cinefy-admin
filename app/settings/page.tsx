@@ -149,7 +149,7 @@ export default function SettingsPage() {
                 <div className="flex gap-2">
                   <Input
                     id="api-key"
-                    defaultValue="sk_live_51NzUBTGQOF5YrHMVZj6YyDs"
+                    defaultValue="00000000000000000000000000000000"
                     type="password"
                   />
                   <Button variant="outline">Reveal</Button>
@@ -181,7 +181,7 @@ export default function SettingsPage() {
                   <div className="flex items-center gap-2">
                     <Input
                       className="w-64"
-                      defaultValue="AIzaSyC5XhQ3a5eNGDY"
+                      defaultValue="00000000000000000000000000000000"
                       type="password"
                     />
                     <Button variant="outline" size="sm">
@@ -200,7 +200,7 @@ export default function SettingsPage() {
                   <div className="flex items-center gap-2">
                     <Input
                       className="w-64"
-                      defaultValue="pk_live_51NzUBTGQOF5YrHMV"
+                      defaultValue="00000000000000000000000000000000"
                       type="password"
                     />
                     <Button variant="outline" size="sm">
