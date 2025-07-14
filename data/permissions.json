@@ -1,0 +1,319 @@
+[
+  {
+    "title": "Casting Calls",
+    "resource": "casting-calls",
+    "path": "/casting-calls",
+    "permissions": [
+      {
+        "method": "GET",
+        "label": "View Casting Calls",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager", "customer-support", "viewer"]
+      },
+      {
+        "method": "POST",
+        "label": "Create Casting Call",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "PUT",
+        "label": "Update Casting Call",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "DELETE",
+        "label": "Delete Casting Call",
+        "defaultChecked": false,
+        "accessibleUsers": ["content-manager"]
+      }
+    ]
+  },
+  {
+    "title": "Projects",
+    "resource": "projects",
+    "path": "/projects",
+    "permissions": [
+      {
+        "method": "GET",
+        "label": "View Projects",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager", "customer-support", "viewer"]
+      },
+      {
+        "method": "POST",
+        "label": "Create Project",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "PATCH",
+        "label": "Update Project",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "DELETE",
+        "label": "Delete Project",
+        "defaultChecked": false,
+        "accessibleUsers": ["content-manager"]
+      }
+    ]
+  },
+  {
+    "title": "Categories",
+    "resource": "categories",
+    "path": "/categories",
+    "permissions": [
+      {
+        "method": "GET",
+        "label": "View Categories",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager", "customer-support", "viewer"]
+      },
+      {
+        "method": "POST",
+        "label": "Create Categories",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "PATCH",
+        "label": "Edit Categories",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "DELETE",
+        "label": "Delete Categories",
+        "defaultChecked": false,
+        "accessibleUsers": ["content-manager"]
+      }
+    ]
+  },
+  {
+    "title": "Builders",
+    "resource": "builders",
+    "path": "/builders",
+    "permissions": [
+      {
+        "method": "GET",
+        "label": "View Builders",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager", "customer-support", "viewer"]
+      },
+      {
+        "method": "POST",
+        "label": "Create Builder",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "PATCH",
+        "label": "Update Builder",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "DELETE",
+        "label": "Delete Builder",
+        "defaultChecked": false,
+        "accessibleUsers": ["content-manager"]
+      }
+    ]
+  },
+  {
+    "title": "Tags",
+    "resource": "tags",
+    "path": "/tags",
+    "permissions": [
+      {
+        "method": "GET",
+        "label": "View Tags",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager", "customer-support", "viewer"]
+      },
+      {
+        "method": "POST",
+        "label": "Create Tags",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "PATCH",
+        "label": "Edit Tags",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "DELETE",
+        "label": "Delete Tags",
+        "defaultChecked": false,
+        "accessibleUsers": ["content-manager"]
+      }
+    ]
+  },
+  {
+    "title": "Sections",
+    "resource": "sections",
+    "path": "/sections",
+    "permissions": [
+      {
+        "method": "GET",
+        "label": "View Sections",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager", "customer-support", "viewer"]
+      },
+      {
+        "method": "POST",
+        "label": "Create Sections",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "PATCH",
+        "label": "Edit Sections",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "DELETE",
+        "label": "Delete Sections",
+        "defaultChecked": false,
+        "accessibleUsers": ["content-manager"]
+      }
+    ]
+  },
+  {
+    "title": "Blogs",
+    "resource": "blogs",
+    "path": "/blogs",
+    "permissions": [
+      {
+        "method": "GET",
+        "label": "View Blogs",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager", "customer-support", "viewer"]
+      },
+      {
+        "method": "POST",
+        "label": "Create Blogs",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "PATCH",
+        "label": "Edit Blogs",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "DELETE",
+        "label": "Delete Blogs",
+        "defaultChecked": false,
+        "accessibleUsers": ["content-manager"]
+      }
+    ]
+  },
+  {
+    "title": "Banners",
+    "resource": "banners",
+    "path": "/banners",
+    "permissions": [
+      {
+        "method": "GET",
+        "label": "View Banners",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager", "customer-support", "viewer"]
+      },
+      {
+        "method": "POST",
+        "label": "Create Banners",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "PATCH",
+        "label": "Edit Banners",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager"]
+      },
+      {
+        "method": "DELETE",
+        "label": "Delete Banners",
+        "defaultChecked": false,
+        "accessibleUsers": ["content-manager"]
+      }
+    ]
+  },
+  {
+    "title": "Enquiries",
+    "resource": "enquiries",
+    "path": "/enquiries",
+    "permissions": [
+      {
+        "method": "GET",
+        "label": "View Enquiries",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager", "customer-support", "viewer"]
+      },
+      {
+        "method": "PATCH",
+        "label": "Edit Enquiries",
+        "defaultChecked": true,
+        "accessibleUsers": ["customer-support"]
+      }
+    ]
+  },
+  {
+    "title": "Admins Management",
+    "resource": "admins",
+    "path": "/admins",
+    "permissions": [
+      {
+        "method": "GET",
+        "label": "View Admins",
+        "defaultChecked": true,
+        "accessibleUsers": ["administrator"]
+      },
+      {
+        "method": "POST",
+        "label": "Create Admin",
+        "defaultChecked": true,
+        "accessibleUsers": ["administrator"]
+      },
+      {
+        "method": "PATCH",
+        "label": "Update Admin",
+        "defaultChecked": true,
+        "accessibleUsers": ["administrator"]
+      },
+      {
+        "method": "DELETE",
+        "label": "Delete Admin",
+        "defaultChecked": false,
+        "accessibleUsers": ["administrator"]
+      }
+    ]
+  },
+  {
+    "title": "Settings",
+    "resource": "settings",
+    "path": "/settings",
+    "permissions": [
+      {
+        "method": "GET",
+        "label": "View Settings",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager", "customer-support", "viewer"]
+      },
+      {
+        "method": "PATCH",
+        "label": "Edit Settings",
+        "defaultChecked": true,
+        "accessibleUsers": ["content-manager", "customer-support"]
+      }
+    ]
+  }
+]
